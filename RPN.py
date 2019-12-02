@@ -1,4 +1,4 @@
-def RNP()   
+def RNP():   
    ent=input().split()
    ex=['FORALL', '∀','EXISTS', '∃']       #quantifier
    neg=['NOT','¬','~']                     #negation                                
