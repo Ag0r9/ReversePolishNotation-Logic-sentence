@@ -1,4 +1,4 @@
-def RNP():   
+def RPN():   
    ent=input().split()
    ex=['FORALL', '∀','EXISTS', '∃']       #quantifier
    neg=['NOT','¬','~']                     #negation                                
@@ -32,4 +32,4 @@ def RNP():
                   i-=1
       i+=1
    print(ent[0])
-RNP()
+RPN()
