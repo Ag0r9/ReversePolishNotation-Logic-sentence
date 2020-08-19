@@ -32,4 +32,5 @@ def RPN():
                   i-=1
       i+=1
    print(ent[0])
-RPN()
+if __name__ == "__main__":
+   RPN()
